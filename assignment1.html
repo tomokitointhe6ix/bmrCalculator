@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--      Tomoki Takeuchi - #301063035<-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Assignment1 - Tomoki Takeuchi</title>
+<link rel="stylesheet" href="assignment1.css" />
+</head>
+
+<body>
+   <header>
+
+   </header>
+
+  <main>
+   <article>
+      <h2>Basal Metabolic Rate (BMR) Calculator</h2>
+      <form>
+          <fieldset>
+            <label for="gender">
+              Gender <br>
+              <input type="radio" name="sex" id="gender" value="1" required="required" />Male
+              <input type="radio" name="sex" id="gender" value="2" required="required"  />Female
+            </label>
+          </fieldset>
+           <fieldset>
+            <label for="age">
+              Age
+            </label>
+            <input type="number" id="age" required="required" />
+          </fieldset>
+          <fieldset>
+            <label for="hight">
+              Height <br>
+                <input type="number" id="height" required="required" /> cm
+            </label>
+          </fieldset>
+          <fieldset>
+            <label for="weight">
+              Weight <br>
+                <input type="number" id="weight" required="required" /> kg
+            </label>
+          </fieldset>
+          <fieldset>
+            <label for="activityLevel">
+              Activity Level <br>
+              
+               <input type="radio" name="activityLevel" id="activityLevel" value="2.25" required="required" /> Vigorously active <br>
+               <input type="radio" name="activityLevel" id="activityLevel" value="1.76" required="required" /> Active <br>
+               <input type="radio" name="activityLevel" id="activityLevel" value="1.76" required="required" /> Moderately active <br>
+               <input type="radio" name="activityLevel" id="activityLevel" value="1.53" required="required" /> Sedentary activity <br>
+               <input type="radio" name="activityLevel" id="activityLevel" value="1.53" required="required" /> Light activity <br>
+            </label>
+          </fieldset>
+          <fieldset>
+            <button type="button" id="button">Calculate BMR</button>
+          </fieldset>
+            <fieldset>
+            <hr>
+             <p><b>BMR: <span id="bmrValue"> &nbsp;</span></b></p> 
+             <p><b>Daily Calorie Needs: <span id="dailyCalorieNeedsValue"> &nbsp;</span></b></p> 
+             <hr>
+          </fieldset>
+     </form>
+   </article>
+    <script src="assignment1.js"></script>
+    </main>
+    <footer><p>&copy;&nbsp;&nbsp;Copyright Centennial College - COMP 125 - Assignment1</p></footer>
+</body>
+</html>
